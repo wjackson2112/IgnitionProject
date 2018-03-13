@@ -1,0 +1,26 @@
+--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\ble_services\ble_boc -I..\arm5 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\RTT -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\Syscalls --c99
+-I X:\Users\Will\Documents\ble_peripheral\ble_app_template\pca10028\s110\arm5\RTE
+-I X:\Users\Will\Documents\ble_peripheral\ble_app_template\pca10028\s110\arm5\RTE\nRF_BLE\nRF51822_xxAA
+-I X:\Users\Will\Documents\ble_peripheral\ble_app_template\pca10028\s110\arm5\RTE\nRF_Drivers\nRF51822_xxAA
+-I X:\Users\Will\Documents\ble_peripheral\ble_app_template\pca10028\s110\arm5\RTE\nRF_Libraries\nRF51822_xxAA
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.1\ble_advertising
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.1\ble_services\ble_bas
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.1\common
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.1\device_manager
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\config
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\gpiote
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\uart
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\9.0.0\bsp
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\button
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\timer
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\trace
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers
+-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DBOARD_PCA10028 -DSOFTDEVICE_PRESENT -DNRF51 -DSWI_DISABLE0
+-o .\_build\ble_boc.o --omf_browse .\_build\ble_boc.crf --depend .\_build\ble_boc.d --feedback ".\_build\nrf51422_xxac_s110.fed" "..\..\..\ble_services\ble_boc\ble_boc.c"

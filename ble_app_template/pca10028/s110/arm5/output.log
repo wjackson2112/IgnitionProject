@@ -1,0 +1,14 @@
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'nrf51422_xxac_s110'
+compiling main.c...
+..\..\..\main.c(601): warning:  #177-D: variable "startup_event" was declared but never referenced
+      bsp_event_t startup_event;
+..\..\..\main.c: 1 warning, 0 errors
+compiling ign_state_machine.c...
+ign_state_machine.c(53): warning:  #1-D: last line of file ends without a newline
+  }
+ign_state_machine.c: 1 warning, 0 errors
+linking...
+Program Size: Code=21388 RO-data=432 RW-data=404 ZI-data=7348  
+FromELF: creating hex file...
+".\_build\nrf51422_xxac_s110.axf" - 0 Error(s), 2 Warning(s).

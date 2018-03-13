@@ -1,0 +1,13 @@
+Responses
+
+-6: Operand Ignored Due to Invalid State
+-5: Opcode Ignored Due to Invalid State
+-4: Invalid Opcode
+-3: Incorrect Passcode
+-2: Out of Passcode Attempts (Also Disconnects)
+-1: Unknown Error
+1 : Seed Value Received
+2 : Seed Set
+3 : Passcode Correct
+4 : Opcode Accepted
+5 : Operand Accepted (Also runs the operation)

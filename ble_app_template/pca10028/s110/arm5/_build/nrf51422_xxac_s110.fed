@@ -1,0 +1,158 @@
+;#<FEEDBACK># ARM Linker, 5050169: Last Updated: Sat Oct 03 15:55:25 2015
+;VERSION 0.2
+;FILE app_button.o
+__asm___12_app_button_c_bd9cca92____REV16 <= USED 0
+__asm___12_app_button_c_bd9cca92____REVSH <= USED 0
+app_button_disable <= USED 0
+app_button_is_pushed <= USED 0
+;FILE app_error.o
+__asm___11_app_error_c_94ae794d____REV16 <= USED 0
+__asm___11_app_error_c_94ae794d____REVSH <= USED 0
+;FILE app_timer.o
+__asm___11_app_timer_c_cd27f9c3____REV16 <= USED 0
+__asm___11_app_timer_c_cd27f9c3____REVSH <= USED 0
+app_timer_stop_all <= USED 0
+;FILE app_uart.o
+__asm___10_app_uart_c_9ac9bdbb____REV16 <= USED 0
+__asm___10_app_uart_c_9ac9bdbb____REVSH <= USED 0
+app_uart_close <= USED 0
+app_uart_flush <= USED 0
+app_uart_get <= USED 0
+app_uart_get_connection_state <= USED 0
+app_uart_init <= USED 0
+app_uart_put <= USED 0
+;FILE arm_startup_nrf51.o
+;FILE ble_advdata.o
+;FILE ble_advertising.o
+__asm___17_ble_advertising_c_8e1d628c____REV16 <= USED 0
+__asm___17_ble_advertising_c_8e1d628c____REVSH <= USED 0
+ble_advertising_peer_addr_reply <= USED 0
+ble_advertising_whitelist_reply <= USED 0
+;FILE ble_bas.o
+ble_bas_battery_level_update <= USED 0
+ble_bas_init <= USED 0
+ble_bas_on_ble_evt <= USED 0
+;FILE ble_boc.o
+__asm___9_ble_boc_c_f3b30411____REV16 <= USED 0
+__asm___9_ble_boc_c_f3b30411____REVSH <= USED 0
+ble_boc_opcode_update <= USED 0
+ble_boc_operand_update <= USED 0
+ble_boc_passcode_update <= USED 0
+;FILE ble_conn_params.o
+ble_conn_params_change_conn_params <= USED 0
+ble_conn_params_stop <= USED 0
+;FILE ble_srv_common.o
+ble_srv_ascii_to_utf8 <= USED 0
+characteristic_add <= USED 0
+;FILE bsp.o
+__asm___5_bsp_c_9aa79841____REV16 <= USED 0
+__asm___5_bsp_c_9aa79841____REVSH <= USED 0
+bsp_button_is_pressed <= USED 0
+bsp_buttons_disable <= USED 0
+bsp_buttons_state_get <= USED 0
+bsp_indication_text_set <= USED 0
+;FILE bsp_btn_ble.o
+__asm___13_bsp_btn_ble_c_4c67689d____REV16 <= USED 0
+__asm___13_bsp_btn_ble_c_4c67689d____REVSH <= USED 0
+bsp_btn_ble_init <= USED 0
+;FILE device_manager_peripheral.o
+__asm___27_device_manager_peripheral_c_6ec1034b____REV16 <= USED 0
+__asm___27_device_manager_peripheral_c_6ec1034b____REVSH <= USED 0
+dm_application_context_delete <= USED 0
+dm_application_context_get <= USED 0
+dm_application_context_set <= USED 0
+dm_application_instance_set <= USED 0
+dm_device_add <= USED 0
+dm_device_delete <= USED 0
+dm_device_delete_all <= USED 0
+dm_distributed_keys_get <= USED 0
+dm_handle_get <= USED 0
+dm_peer_addr_get <= USED 0
+dm_peer_addr_set <= USED 0
+dm_security_setup_req <= USED 0
+dm_security_status_req <= USED 0
+dm_service_context_delete <= USED 0
+dm_service_context_get <= USED 0
+dm_service_context_set <= USED 0
+dm_whitelist_create <= USED 0
+;FILE ign_state_machine.o
+__asm___19_ign_state_machine_c_head____REV16 <= USED 0
+__asm___19_ign_state_machine_c_head____REVSH <= USED 0
+;FILE main.o
+__asm___6_main_c_48b9ef9b____REV16 <= USED 0
+__asm___6_main_c_48b9ef9b____REVSH <= USED 0
+assert_nrf_callback <= USED 0
+;FILE mt19937-64.o
+genrand64_int63 <= USED 0
+genrand64_real1 <= USED 0
+genrand64_real2 <= USED 0
+genrand64_real3 <= USED 0
+;FILE nrf_delay.o
+__asm___11_nrf_delay_c_532987f3____REV16 <= USED 0
+__asm___11_nrf_delay_c_532987f3____REVSH <= USED 0
+__asm___11_nrf_delay_c_532987f3__nrf_delay_us <= USED 0
+nrf_delay_ms <= USED 0
+;FILE nrf_drv_common.o
+__asm___16_nrf_drv_common_c_68d8f45c____REV16 <= USED 0
+__asm___16_nrf_drv_common_c_68d8f45c____REVSH <= USED 0
+;FILE nrf_drv_gpiote.o
+__asm___16_nrf_drv_gpiote_c_875a4e72____REV16 <= USED 0
+__asm___16_nrf_drv_gpiote_c_875a4e72____REVSH <= USED 0
+nrf_drv_gpiote_in_event_addr_get <= USED 0
+nrf_drv_gpiote_in_event_disable <= USED 0
+nrf_drv_gpiote_in_uninit <= USED 0
+nrf_drv_gpiote_out_clear <= USED 0
+nrf_drv_gpiote_out_init <= USED 0
+nrf_drv_gpiote_out_set <= USED 0
+nrf_drv_gpiote_out_task_addr_get <= USED 0
+nrf_drv_gpiote_out_task_disable <= USED 0
+nrf_drv_gpiote_out_task_enable <= USED 0
+nrf_drv_gpiote_out_task_force <= USED 0
+nrf_drv_gpiote_out_task_trigger <= USED 0
+nrf_drv_gpiote_out_toggle <= USED 0
+nrf_drv_gpiote_out_uninit <= USED 0
+nrf_drv_gpiote_uninit <= USED 0
+;FILE pstorage.o
+__asm___10_pstorage_c_1dab5049____REV16 <= USED 0
+__asm___10_pstorage_c_1dab5049____REVSH <= USED 0
+;FILE retarget.o
+__asm___10_retarget_c_fgetc____REV16 <= USED 0
+__asm___10_retarget_c_fgetc____REVSH <= USED 0
+fgetc <= USED 0
+fputc <= USED 0
+;FILE rtt_syscalls_keil.o
+_sys_close <= USED 0
+_sys_command_string <= USED 0
+_sys_ensure <= USED 0
+_sys_exit <= USED 0
+_sys_flen <= USED 0
+_sys_istty <= USED 0
+_sys_open <= USED 0
+_sys_read <= USED 0
+_sys_seek <= USED 0
+_sys_tmpnam <= USED 0
+_sys_write <= USED 0
+_ttywrch <= USED 0
+;FILE segger_rtt.o
+SEGGER_RTT_ConfigDownBuffer <= USED 0
+SEGGER_RTT_ConfigUpBuffer <= USED 0
+SEGGER_RTT_GetKey <= USED 0
+SEGGER_RTT_HasKey <= USED 0
+SEGGER_RTT_Init <= USED 0
+SEGGER_RTT_Read <= USED 0
+SEGGER_RTT_SetTerminal <= USED 0
+SEGGER_RTT_TerminalOut <= USED 0
+SEGGER_RTT_WaitKey <= USED 0
+SEGGER_RTT_Write <= USED 0
+SEGGER_RTT_WriteString <= USED 0
+;FILE segger_rtt_printf.o
+SEGGER_RTT_printf <= USED 0
+SEGGER_RTT_vprintf <= USED 0
+;FILE softdevice_handler.o
+__asm___20_softdevice_handler_c_370b0038____REV16 <= USED 0
+__asm___20_softdevice_handler_c_370b0038____REVSH <= USED 0
+softdevice_handler_sd_disable <= USED 0
+;FILE system_nrf51.o
+SystemCoreClockUpdate <= USED 0
+__asm___14_system_nrf51_c_5d646a67____REV16 <= USED 0
+__asm___14_system_nrf51_c_5d646a67____REVSH <= USED 0
